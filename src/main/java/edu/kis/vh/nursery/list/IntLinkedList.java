@@ -5,6 +5,7 @@ public class IntLinkedList {
     private static final int EMPTY_VALUE = -1;
     private Node last;
     private int i;
+    // TODO: delete unused 'i' field
 
     public void push(int i) {
         if (last == null)
@@ -21,6 +22,7 @@ public class IntLinkedList {
     }
 
     public boolean isFull() {
+        // TODO: unused method and always returns false, add implementation?
         return false;
     }
 
